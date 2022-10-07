@@ -10,7 +10,7 @@ server.on('error',(err)=>{
     console.log(err);
 });
 
-const product = new Contenedor ('./productos.json');
+const product = new Contenedor ('./src/productos.json');
 
 app.get('/',(req,res)=>{
     res.json({
