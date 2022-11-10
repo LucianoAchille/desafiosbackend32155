@@ -1,0 +1,24 @@
+
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="/style.css")
+        title Formulario
+    body
+        div(id='formBody') 
+            form(action="/api/productos", method="post")
+                ul
+                    li
+                        label(for="title") Title:
+                        input(type="text" maxlength="20" placeholder="Ingrese nombre del producto" id='title' name='title') 
+                    li
+                        label(for="price") Price: 
+                        input(type="number" placeholder="Ingrese precio del producto" id='price' name='price') 
+                    li 
+                        label(for="url") Url del producto: 
+                        input(placeholder="ingrese la URL a la imagen del producto" type="text" id="url" name="thumbnail")
+                    button(type="submit") Agregar Producto
+    
+    a(href="/api/productos") Ir a Ver Productos 
