@@ -49,26 +49,14 @@
 	},
 	{
 		"id": 10,
-		"title": "dos",
-		"price": 222,
-		"thumbnail": "url"
+		"title": "Producto 10",
+		"price": 101010,
+		"thumbnail": "https://upload.wikimedia.org/wikipedia/commons/8/83/Escudo_del_Club_Atl%C3%A9tico_Boca_Juniors.svg"
 	},
 	{
 		"id": 11,
-		"title": "dos",
-		"price": 222,
-		"thumbnail": "url"
-	},
-	{
-		"id": 12,
-		"title": "peras",
-		"price": 4545,
-		"thumbnail": "url"
-	},
-	{
-		"id": 13,
-		"title": "producto",
-		"price": 1500,
+		"title": "pruducto",
+		"price": 1200,
 		"thumbnail": "url"
 	}
 ]
