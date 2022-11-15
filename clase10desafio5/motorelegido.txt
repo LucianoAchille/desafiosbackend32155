@@ -1,0 +1,3 @@
+Elegi pug como motor de plantillas porque me resultó mas facil de configurar, 
+y ademas me gusto la sintaxis ya q es parecida a yaml, y al tener experencia en configurar archivos yml para pipelines de jenkins y gitlab 
+me sentí familiriazado con el lenguaje.
